@@ -21,14 +21,12 @@ module.exports = {
     module: {
         rules: [
             {   
-                test: /\.?(js|jsx)$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_module/,
                 use: {
-                    loader: "babel-loader"
+                    loader: "babel-loader",
+                    options: ["@babel/preset-env", "@babel/preset-react"]
                 },
-                options: {
-                   presets: ["@babel/preset-env", "@babel/preset-react"] 
-                }
             },
         ]
     },
