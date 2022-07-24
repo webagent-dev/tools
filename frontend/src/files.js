@@ -6,8 +6,9 @@ import { default as Tech } from './pages/Tech'
 import { default as Img } from './pages/Img'
 import { default as Youtube } from './pages/Youtube'
 import { default as Nav } from './comps/nav/Nav'
-import { default as Home } from './comps/home/Home'
+import { default as Main } from './comps/home/Home'
+import bg from './asset/bg.jpg'
 
 
 
-export { About, Contact, Home, Shortner, Tech, Img, Youtube, Home, Nav } 
+export { About, Contact, Home, Shortner, Tech, Img, Youtube,Main, Nav, bg } 
