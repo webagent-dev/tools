@@ -1,4 +1,5 @@
 import { default as About } from './pages/About'
+import { default as Aboutme } from './comps/about/Aboutme'
 import { default as Contact } from './pages/Contact'
 import { default as Home } from './pages/Home'
 import { default as Shortner } from './pages/Shortner'
@@ -11,4 +12,4 @@ import bg from './asset/bg.jpg'
 
 
 
-export { About, Contact, Home, Shortner, Tech, Img, Youtube,Main, Nav, bg } 
+export { About, Contact, Home, Shortner, Tech, Img, Youtube,Main, Nav, bg, Aboutme } 
