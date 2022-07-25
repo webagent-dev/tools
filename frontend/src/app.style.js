@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         color: white;
+        text-decoration: none;
     }
 `
 export const AppContainer = withReveal(styled.div`

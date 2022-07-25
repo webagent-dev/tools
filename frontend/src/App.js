@@ -9,11 +9,11 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route />
-        <Route />
-        <Route />
-        <Route />
-        <Route />
+        <Route path='/image_compressor' element={<Img /> } />
+        <Route  path='/url_shortner' element={<Shortner /> }/>
+        <Route   path='/youtube_downloader' element={<Youtube /> }/>
+        <Route  path='/about_me' element={<About /> } />
+        <Route  path='/contact_me' element={<Contact /> }/>
       </Routes>
     </AppContainer>
   )
