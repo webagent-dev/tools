@@ -16,7 +16,8 @@ module.exports = {
         static: ["./public"],
         open: true,
         hot: true,
-        liveReload: true
+        liveReload: true,
+        historyApiFallback: true
     },
     resolve: {
         extensions: ['.js', '.jsx', '.json'],
