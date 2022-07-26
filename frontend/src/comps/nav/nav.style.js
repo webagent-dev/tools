@@ -11,6 +11,7 @@ export const NavContainer = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+   
  `
 export const NavWrapper = styled.div`
     width: 100%;
@@ -30,6 +31,7 @@ export const Text = styled.h2`
         cursor: pointer;
     font-size: 13px!important;  
     text-transform: uppercase;
+     color: white!important;
 `
 export const Other = styled.div`
     display: flex;
