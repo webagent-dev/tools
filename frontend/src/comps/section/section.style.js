@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const SectionContainer = styled.div`
     flex: 1;
+    min-width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +28,7 @@ export const OneHeader = styled.div`
 export const ListContainer = styled.div`
     display: flex;
     align-items: center;
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-bottom: 1px solid lightgray;
     gap: 1rem;
     font-family: monospace;
