@@ -50,13 +50,22 @@ export const Img = styled.img`
 `
 export const Text = styled.div``
 export const TechDetail = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+`
+export const Icon = styled.div`
+     width: 150px;
+    height: 100px;
     background: red;
 `
-export const Icon = styled.div``
 export const Name = styled.div``
 export const Tech = styled.div`
          padding: 20px 25px; 
-        display: grid;
-        grid-template-column: repeat(autofit, minmax(200px, 1fr));
+        display: flex;
          gap: 1rem;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
 `
