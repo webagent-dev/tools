@@ -1,14 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect }  from 'react'
 import { About, Contact, Home, Shortner, Tech,  Img, Youtube, Nav, Main, bg, Mainnav } from './files'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { AppContainer, GlobalStyle, NavWrapper } from './app.style'
 function App() {
+  const [mainNav, setMainNav ] = useState(false)
+  const location = useLocation()
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setMainNav(true)
+    } else {
+      setMainNav(false)
+    }
+      
+  }, [location])
   return (
     <AppContainer bg={bg}>
       <GlobalStyle />
       <NavWrapper>
         <Nav />
-        <Mainnav />
+        { !mainNav && <Mainnav />}
       </NavWrapper>
       <Routes>
         <Route path='/' element={<Main />} />
