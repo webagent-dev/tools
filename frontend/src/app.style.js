@@ -19,7 +19,7 @@ export const AppContainer = withReveal(styled.div`
 
 export const NavWrapper = styled.div`
 width: 100%;
-height: 150px;
+height: 170px;
      position: absolute;
     top: 0;
     left: 0;
