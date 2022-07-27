@@ -1,12 +1,15 @@
 import React from 'react'
-import { About, Contact, Home, Shortner, Tech,  Img, Youtube, Nav, Main, bg } from './files'
+import { About, Contact, Home, Shortner, Tech,  Img, Youtube, Nav, Main, bg, Mainnav } from './files'
 import { Routes, Route } from 'react-router-dom'
-import { AppContainer, GlobalStyle } from './app.style'
+import { AppContainer, GlobalStyle, NavWrapper } from './app.style'
 function App() {
   return (
     <AppContainer bg={bg}>
       <GlobalStyle />
-      <Nav />
+      <NavWrapper>
+        <Nav />
+        <Mainnav />
+      </NavWrapper>
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/image_compressor' element={<Img /> } />

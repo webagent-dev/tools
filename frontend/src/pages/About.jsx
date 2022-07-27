@@ -9,7 +9,6 @@ const AboutContainer = styled.div`
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    margin-top: 40px;
 `
 function About() {
     return (

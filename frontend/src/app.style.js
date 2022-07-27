@@ -16,3 +16,15 @@ export const AppContainer = withReveal(styled.div`
     background: linear-gradient( to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${props => props.bg}) center;
     
 `, <Fade />)
+
+export const NavWrapper = styled.div`
+width: 100%;
+height: 150px;
+     position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+`

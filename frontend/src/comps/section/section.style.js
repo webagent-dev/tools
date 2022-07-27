@@ -7,7 +7,7 @@ export const SectionContainer = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin-top: 40px;
+    margin-top: 150px;
 `
 export const SectionOne = styled.div`
 width: 100%;
