@@ -58,7 +58,7 @@ padding: 5px 15px;
 display: flex;
 align-items: center;
 cursor: pointer;
-color:  #242B2E;
+color:  #242B2E!important;
 `
 export const Third = styled.div`
     width: 700px;

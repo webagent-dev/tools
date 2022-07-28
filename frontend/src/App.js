@@ -1,5 +1,5 @@
 import React, { useState, useEffect }  from 'react'
-import { About, Contact, Home, Shortner, Tech,  Img, Youtube, Nav, Main, bg, Mainnav } from './files'
+import { About, Contact, Home, Shortner, Tech,  Img, Youtube, Nav, Main, bg, Mainnav, Footer } from './files'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AppContainer, GlobalStyle, NavWrapper } from './app.style'
 function App() {
@@ -29,6 +29,7 @@ function App() {
         <Route  path='/about_me' element={<About /> } />
         <Route  path='/contact_me' element={<Contact /> }/>
       </Routes>
+      {  !mainNav && <Footer />}
     </AppContainer>
   )
 }
