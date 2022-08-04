@@ -1,6 +1,7 @@
 import React from 'react'
-import { HomeContainer, HomeWrapper, First, BigText, Text, Cap, Second, Note, Btn, Third, TextOne, Fouth, BoxContainer, Box, TextBox } from './home.style'
+import { HomeContainer, HomeWrapper, First, BigText, Text, Cap, Second, Note, Btn, Third, TextOne, Fouth, BoxContainer, Box, TextBox, Img } from './home.style'
 import { Link } from 'react-router-dom'
+import { nav } from '../../data'
 const link = [1, 2, 3, 4, 5, 6, 7, 8]
 function Home() {
     return (
@@ -23,9 +24,11 @@ function Home() {
                 <Fouth>
                     {
                         link.map((i) => (
-                            <BoxContainer key={i}>
-                                <Box>e</Box>
-                                <TextBox>Lorem, ipsum.</TextBox>
+                            <BoxContainer key='i'>
+                                <Box>
+                                    {/* <Img /> */}e
+                                </Box>
+                                <TextBox>navs.name</TextBox>
                             </BoxContainer>
                         ))
                     }

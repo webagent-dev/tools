@@ -99,6 +99,7 @@ export const Box = styled.div`
     align-items: center;
     justify-content: center;
 `
+export const Img = styled.img``
 export const TextBox = styled.div`
 width: 100%;
 text-align: center;
