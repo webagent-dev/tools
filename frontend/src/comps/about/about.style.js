@@ -7,7 +7,6 @@ export const AboutmeContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
 `
 
 export const Divider = styled.div`
