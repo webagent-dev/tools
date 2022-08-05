@@ -37,27 +37,54 @@ export const CompressWrapper = styled.div`
     color: white;
  `
 export const Btn = styled.div`
-
- `
-export const BtnContainer = styled.div`
+width: 200px;
+height: 40px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
  `
+export const BtnContainer = styled.div`
+width: 80%;
+height: 50px;
+margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+ `
 export const Text = styled.button`
+min-width: 100%;
+    padding: 10px 15px;
     text-transform: capitalize;
-    font-size: 25px;
+    font-size: 15px;
     font-family: monospace;
     font-weight: 700;
+        background: red;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
  `
-export const File = styled.div`
-
+export const File = styled.input`
+    position: absolute;
+    top: 30%;
+    opacity: .1;
+    left: 10%;
  `
 export const Clear = styled.button`
-
- `
+    padding: 10px 15px;
+    text--transform: capitalize;
+    font-family: cursive;
+            border-radius: 5px;
+            cursor: pointer;
+    `
 export const ImageOne = styled.div`
-
+    width: 100%;
+    height: 250px;
+    border: 3px dotted gray;
+    padding: 10px 15px;
 `
 export const ImageTwo = styled.div`
 
@@ -107,5 +134,14 @@ export const DescText = styled.p`
     line-height: 20px;
 `
 
-export const Loader = styled.div``
-export const ContainerContainer = styled.div``
+export const Loader = styled.img`
+width: 120px;
+    align-self: center;
+    padding: 10px 15px;
+`
+export const ContainerContainer = styled.div`
+    width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+`

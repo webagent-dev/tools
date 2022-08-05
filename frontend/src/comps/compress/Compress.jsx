@@ -28,15 +28,15 @@ function Compress() {
                 <BtnContainer>
                     <Btn>
                         <Text>add image</Text>
-                        <File />
+                        <File type='file' />
                     </Btn>
                     <Clear>Clear Local Data</Clear>
                 </BtnContainer>
-                <Loader> Lorem2</Loader>
+                <Loader src='/image/loader.svg' alt='loader_pics' />
                 <ContainerContainer>
                     <ImageOne></ImageOne>
-                    <Loader> Lorem2</Loader>
-                    <ImageTwo></ImageTwo>
+                    <Loader src='/image/loader.svg' alt='loader_pics' />
+                    <ImageOne></ImageOne>
                 </ContainerContainer>
             </CompressWrapper>
         </CompressContainer>
