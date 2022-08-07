@@ -8,6 +8,7 @@ import { default as Img } from './pages/Img'
 import { default as Youtube } from './pages/Youtube'
 import { default as Nav } from './comps/nav/Nav'
 import { default as Contactme } from './comps/contact/Contactme'
+import { default as Youtubes } from './comps/youtubes/Youtubes'
 import { default as Mainnav } from './comps/nav/mainnav/Mainnav'
 import { default as Section } from './comps/section/Section'
 import { default as Main } from './comps/home/Home'
@@ -26,5 +27,5 @@ export {
     About, Contact, Home, Shortner, Tech, Img,
     Youtube, Main, Nav, bg, Aboutme, Section, Mainnav,
     Footer, Contactme, imgCompressor, url, tools, youtube,
-    Compress, cat
+    Compress, cat, Youtubes
 } 
