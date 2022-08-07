@@ -1,9 +1,11 @@
 import React from 'react'
 import {
     CompressContainer, Header, Desc, CompressWrapper, BtnContainer, Btn, Text, File, Clear, ImageOne, ImageTwo, Img, Head,
-    DescContainer, DescTextContainer, Div, Title, DescImageText, DescImage, Span, DescText, DescTextHead, Loader, ContainerContainer
+    DescContainer, DescTextContainer, Div, Title, DescImageText, DescImage, Span, DescText, DescTextHead, Loader, ContainerContainer, Download,
+    Recent, RecentHead, Grid, RecentImage, DetailContainer, Detail, H2, P, ImageContainer, GridDataContainer, Date, FunctContainer, ReComp, Del, Remove
 } from './conpress.style'
 import { cat, imgCompressor } from '../../files'
+const recentData = [1, 2, 3, 4, 5]
 function Compress() {
     return (
         <CompressContainer bg={cat}>
@@ -34,11 +36,47 @@ function Compress() {
                 </BtnContainer>
                 <Loader src='/image/loader.svg' alt='loader_pics' />
                 <ContainerContainer>
-                    <ImageOne></ImageOne>
-                    <Loader src='/image/loader.svg' alt='loader_pics' />
-                    <ImageOne></ImageOne>
+                    <ImageOne>
+                        <ImageContainer>
+                            <ImageTwo />
+                        </ImageContainer>
+                        <DetailContainer>
+                            <Detail>
+                                <H2>Name:</H2>
+                                <P>Lorem.</P>
+                            </Detail>
+                            <Detail>
+                                <H2>type:</H2>
+                                <P>Lorem.</P>
+                            </Detail>
+                            <Detail>
+                                <H2>size:</H2>
+                                <P>Lorem.</P>
+                            </Detail>
+                        </DetailContainer>
+                    </ImageOne>
+                    <Download>Compress</Download>
                 </ContainerContainer>
+                <Recent>
+                    <RecentHead>Recent  Images</RecentHead>
+                    <Grid>
+                        {
+                            recentData.map((i) => (
+                                <GridDataContainer key={i}>
+                                    < RecentImage />
+                                    <Date>02/03/1299</Date>
+                                    <FunctContainer>
+                                        <Del>recompress</Del>
+                                        <Del>remove</Del>
+                                    </FunctContainer>
+                                </GridDataContainer>
+                            ))
+                        }
+                    </Grid>
+                    <Remove>Clear all recent</Remove>
+                </Recent>
             </CompressWrapper>
+
         </CompressContainer>
     )
 }
