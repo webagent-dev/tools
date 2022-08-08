@@ -1,21 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Section, Compress } from '../files'
-export const ImgContainer = styled.div`
- width: 100%;
-    max-width: 1024px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-`
+import { PageContainer } from '../app.style'
 function Img() {
     return (
-        <ImgContainer>
+        <PageContainer>
             <Compress />
             <Section />
-        </ImgContainer>
+        </PageContainer>
     )
 }
 
