@@ -1,27 +1,5 @@
 import styled from 'styled-components'
 
-export const CompressContainer = styled.div`
-        margin-top: 170px;
-    max-width: 80%;
-    flex: 3;
-    background: linear-gradient( to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(${props => props.bg});
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-`
-
-export const Header = styled.div`
-    width: 100%;
-    background: gray;
-    height: 30px;
-    padding: 20px;
-    color: black;
-    display: flex;
-    align-items: center;
-    font-family: monospace;
-    font-weight: 700;
-    gap: 1rem;
-`
 export const Desc = styled.div`
     color: white;
     padding: 20px;
@@ -92,11 +70,6 @@ export const ImageOne = styled.div`
 export const ImageTwo = styled.img`
 
 `
-
-export const Img = styled.img`
-    height: 40px;
-`
-export const Head = styled.h2``
 export const DescContainer = styled.div`
     display: flex;
     align-items: center;

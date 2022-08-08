@@ -1,14 +1,15 @@
 import React from 'react'
-import { YoutubesContainer } from './youtube.style'
-import { youBg } from '../../files'
+import { } from './youtube.style'
+import { youBg, youtube } from '../../files'
+import { Container, MainHeader, MainImg, MainHeaderText } from '../../app.style'
 function Youtubes() {
     return (
-        <YoutubesContainer bg={youBg}>
-            <Header>
-                <Img src={imgCompressor} alt='logo' />
-                <Head>Image Compressor</Head>
-            </Header>
-        </YoutubesContainer>
+        <Container bg={youBg}>
+            <MainHeader>
+                <MainImg src={youtube} alt='logo' />
+                <MainHeaderText>Image Compressor</MainHeaderText>s
+            </MainHeader>
+        </Container>
     )
 }
 

@@ -5,14 +5,15 @@ import {
     Recent, RecentHead, Grid, RecentImage, DetailContainer, Detail, H2, P, ImageContainer, GridDataContainer, Date, FunctContainer, ReComp, Del, Remove
 } from './conpress.style'
 import { cat, imgCompressor } from '../../files'
+import { Container, MainHeader, MainImg, MainHeaderText } from '../../app.style'
 const recentData = [1, 2, 3, 4, 5]
 function Compress() {
     return (
-        <CompressContainer bg={cat}>
-            <Header>
-                <Img src={imgCompressor} alt='logo' />
-                <Head>Image Compressor</Head>
-            </Header>
+        <Container bg={cat}>
+            <MainHeader>
+                <MainImg src={imgCompressor} alt='logo' />
+                <MainHeaderText>Image Compressor</MainHeaderText>
+            </MainHeader>
             <Desc>
                 <DescContainer>
                     <Div>
@@ -77,7 +78,7 @@ function Compress() {
                 </Recent>
             </CompressWrapper>
 
-        </CompressContainer>
+        </Container>
     )
 }
 
