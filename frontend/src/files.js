@@ -20,6 +20,7 @@ import imgCompressor from '../public/image/img-compressor.png'
 import url from '../public/image/url.png'
 import tools from '../public/image/tools.png'
 import youtube from '../public/image/youtube.png'
+import youBg from './asset/youbg.svg'
 
 
 
@@ -27,5 +28,5 @@ export {
     About, Contact, Home, Shortner, Tech, Img,
     Youtube, Main, Nav, bg, Aboutme, Section, Mainnav,
     Footer, Contactme, imgCompressor, url, tools, youtube,
-    Compress, cat, Youtubes
+    Compress, cat, Youtubes, youBg
 } 
