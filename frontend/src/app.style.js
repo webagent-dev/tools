@@ -45,6 +45,7 @@ export const Container = styled.div`
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+        color: white;
 `
 export const MainHeader = styled.div`
         width: 100%;

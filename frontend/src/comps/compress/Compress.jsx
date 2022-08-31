@@ -2,11 +2,12 @@ import React from 'react'
 import {
     CompressContainer, Header, Desc, CompressWrapper, BtnContainer, Btn, Text, File, Clear, ImageOne, ImageTwo, Img, Head,
     DescContainer, DescTextContainer, Div, Title, DescImageText, DescImage, Span, DescText, DescTextHead, Loader, ContainerContainer, Download,
-    Recent, RecentHead, Grid, RecentImage, DetailContainer, Detail, H2, P, ImageContainer, GridDataContainer, Date, FunctContainer, ReComp, Del, Remove
+    H2, P, ImageContainer
 } from './conpress.style'
 import { cat, imgCompressor } from '../../files'
 import { Container, MainHeader, MainImg, MainHeaderText } from '../../app.style'
-const recentData = [1, 2, 3, 4, 5]
+
+
 function Compress() {
     return (
         <Container bg={cat}>
@@ -58,24 +59,7 @@ function Compress() {
                     </ImageOne>
                     <Download>Compress</Download>
                 </ContainerContainer>
-                <Recent>
-                    <RecentHead>Recent  Images</RecentHead>
-                    <Grid>
-                        {
-                            recentData.map((i) => (
-                                <GridDataContainer key={i}>
-                                    < RecentImage />
-                                    <Date>02/03/1299</Date>
-                                    <FunctContainer>
-                                        <Del>recompress</Del>
-                                        <Del>remove</Del>
-                                    </FunctContainer>
-                                </GridDataContainer>
-                            ))
-                        }
-                    </Grid>
-                    <Remove>Clear all recent</Remove>
-                </Recent>
+
             </CompressWrapper>
 
         </Container>
