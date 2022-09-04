@@ -53,7 +53,7 @@ export const File = styled.input`
  `
 export const Clear = styled.button`
     padding: 10px 15px;
-    text--transform: capitalize;
+    /* text--transform: capitalize; */
     font-family: cursive;
             border-radius: 5px;
             cursor: pointer;
@@ -151,3 +151,4 @@ export const P = styled.p`
 `
 
 export const  ImageContainer = styled.div``
+export const Detail = styled.div``
