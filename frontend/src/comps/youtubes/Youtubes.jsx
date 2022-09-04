@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoContainer, InfoHeader, YoutubesWrapper, Label, CardWrapper, Select, Option, SelectLabel, Download, } from './youtube.style'
+import { InfoContainer, InfoHeader, YoutubesWrapper, Label, CardWrapper, Select, Option, SelectLabel, Download,  Url, Text} from './youtube.style'
 import { youBg, youtube } from '../../files'
 import { Container, MainHeader, MainImg, MainHeaderText, } from '../../app.style'
 function Youtubes() {
@@ -9,7 +9,6 @@ function Youtubes() {
                 <MainImg src={youtube} alt='logo' />
                 <MainHeaderText>Image Compressor</MainHeaderText>
             </MainHeader>
-            {/* <iframe style={{ width: "800px", height: "550px", }} scrolling="no" src="https://loader.to/api/card/?url=https://www.youtube.com/watch?v=OUHVRWdVQCI&adUrl=https://myAdurl.com"></iframe> */}
             <InfoContainer>
                 <InfoHeader>How to use</InfoHeader>
                 <Text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam culpa sequi ab rerum, iste quo incidunt id reiciendis deleniti perspiciatis recusandae optio deserunt consequatur cum molestiae numquam mollitia sunt. Maxime.</Text>
@@ -42,10 +41,6 @@ function Youtubes() {
                     </Select>
                     <Download src="https://loader.to/api/button/?=mp3&color=E5D68A">Dawnload</Download>
                 </CardWrapper>
-                <RecentContainer>
-                    <RecentHeader>Recent Links</RecentHeader>
-                </RecentContainer>
-                <ClearRecent>clear all Url</ClearRecent>
             </YoutubesWrapper>
         </Container>
     )

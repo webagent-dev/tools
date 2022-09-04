@@ -40,6 +40,7 @@ export const Select = styled.select`
     border-radius: 5px;
     font-size: 15px;
     margin-bottom: 10px;
+    color: white;
     `
 export const Option = styled.option`
         padding: 5px;
@@ -63,4 +64,16 @@ border: none;
         // background: #E5D68A;
         color: #242B2E;
     `
+    export const Url = styled.input`
+        width: 100%;
+        padding: 10px;
+        background: #E5D68A;
+        color: white;
+        border: none;
+        border-radius:  3px;
+        color: white;
+        text-transform: capitalize;
+    font-size: 15px;
+    `
+
  
