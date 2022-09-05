@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
-export const Recent = styled.div`
+export const Recents = styled.div`
     width: 100%;
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        margin-top: 40px;
 `
 export const RecentHead = styled.h2`
 padding: 5px 10px;

@@ -14,6 +14,7 @@ import { default as Section } from './comps/section/Section'
 import { default as Main } from './comps/home/Home'
 import { default as Compress } from './comps/compress/Compress'
 import { default as Footer } from './comps/footer/Footer'
+import { default as Recent } from './comps/recent/Recent'
 import bg from './asset/bg.jpg'
 import cat  from './asset/cat.png'
 import imgCompressor from '../public/image/img-compressor.png'
@@ -28,5 +29,5 @@ export {
     About, Contact, Home, Shortner, Tech, Img,
     Youtube, Main, Nav, bg, Aboutme, Section, Mainnav,
     Footer, Contactme, imgCompressor, url, tools, youtube,
-    Compress, cat, Youtubes, youBg
+    Compress, cat, Youtubes, youBg, Recent
 } 

@@ -4,7 +4,7 @@ import {
     DescContainer, DescTextContainer, Div, Title, DescImageText, DescImage, Span, DescText, DescTextHead, Loader, ContainerContainer, Download,
     H2, P, ImageContainer,DetailContainer,Detail
 } from './conpress.style'
-import { cat, imgCompressor } from '../../files'
+import { cat, imgCompressor, Recent } from '../../files'
 import { Container, MainHeader, MainImg, MainHeaderText } from '../../app.style'
 
 
@@ -62,6 +62,7 @@ function Compress() {
 
             </CompressWrapper>
 
+<Recent />
         </Container>
     )
 }

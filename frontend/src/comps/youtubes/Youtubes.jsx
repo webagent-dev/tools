@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfoContainer, InfoHeader, YoutubesWrapper, Label, CardWrapper, Select, Option, SelectLabel, Download,  Url, Text} from './youtube.style'
-import { youBg, youtube } from '../../files'
+import { youBg, youtube, Recent } from '../../files'
 import { Container, MainHeader, MainImg, MainHeaderText, } from '../../app.style'
 function Youtubes() {
     return (
@@ -42,6 +42,7 @@ function Youtubes() {
                     <Download src="https://loader.to/api/button/?=mp3&color=E5D68A">Dawnload</Download>
                 </CardWrapper>
             </YoutubesWrapper>
+            <Recent />
         </Container>
     )
 }

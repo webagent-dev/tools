@@ -1,11 +1,10 @@
 import React from 'react'
-import { RecentContainer, RecentHeader, ClearRecent, Url, Text, Recent, RecentHead, Grid, RecentImage, DetailContainer, Detail, GridDataContainer, DateType, FunctContainer, ReComp, Del, Remove } from './recent.style'
+import { RecentContainer, RecentHeader, ClearRecent, Url, Text, Recents, RecentHead, Grid, RecentImage, DetailContainer, Detail, GridDataContainer, DateType, FunctContainer, ReComp, Del, Remove } from './recent.style'
 const recentData = [1, 2, 3, 4, 5]
 function Recent() {
     return (
         <RecentContainer>
-            <RecentHeader>Recent Links</RecentHeader>
-            <Recent>
+            <Recents>
                 <RecentHead>Recent  Images</RecentHead>
                 <Grid>
                     {
@@ -14,7 +13,7 @@ function Recent() {
                                 < RecentImage />
                                 <DateType>02/03/1299</DateType>
                                 <FunctContainer>
-                                    <Del>recompress</Del>
+                                    <Del>View</Del>
                                     <Del>remove</Del>
                                 </FunctContainer>
                             </GridDataContainer>
@@ -22,8 +21,7 @@ function Recent() {
                     }
                 </Grid>
                 <Remove>Clear all recent</Remove>
-            </Recent>
-            <ClearRecent>clear all Url</ClearRecent>
+            </Recents>
         </RecentContainer>
 
 
