@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { Url, Section } from '../files'
+import { PageContainer } from '../app.style'
 function Shortner() {
     return (
-        <div>shortner</div>
+        <PageContainer>
+            <Url />
+            <Section />
+        </PageContainer>
     )
 }
 

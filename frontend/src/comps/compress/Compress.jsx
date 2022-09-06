@@ -59,7 +59,6 @@ function Compress() {
                     </ImageOne>
                     <Download>Compress</Download>
                 </ContainerContainer>
-
             </CompressWrapper>
 
 <Recent />
